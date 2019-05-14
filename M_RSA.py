@@ -16,7 +16,7 @@ import sys, os
 # @param a = number to find inverse of
 # @param m = number to test up until value of
 # @returns values are := 1 (mod m)
-# @pre a E Z, m E Z
+# @pre a is of type int, z is of type int
 # @post inverse of a based off m
 ##
 
@@ -39,7 +39,7 @@ try:
 except:
     print("Try again, added input values below 26")
     sys.exit()
-n = p * q # to be found
+n = p * q # to be found if breaking
 d = modinv(e, ((p-1)*(q-1))) #for some reason D is always 1 for any number combination
                             # that p + q < 26
 
