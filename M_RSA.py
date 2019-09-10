@@ -12,7 +12,7 @@ import sys, os
 # I coded this before I figured I could just import someone else's
 #    for accuracy and assuring it works
 # Please forgive me
-
+x
 # @param a = number to find inverse of
 # @param m = number to test up until value of
 # @returns values are := 1 (mod m)
@@ -71,4 +71,4 @@ print("Your end result list is " + str(end_list_num))
 for i in end_list_num:
     ending += chr(i)
 
-print("plaintext is " + ending)
+print("Plaintext(Unencrypted) is: " + ending)
